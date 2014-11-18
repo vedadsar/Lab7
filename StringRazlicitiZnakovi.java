@@ -16,7 +16,7 @@ public static void main(String[] args) {
 	for(int i=0; i<(unos.length()); i++){
 	    
             if(unos.contains(unos.charAt(i))) {
-            	
+            	ne moze zato sto charAt treba prvo pretvoriti u stringove
             	
 }
 	}
