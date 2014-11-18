@@ -14,11 +14,21 @@ public static void main(String[] args) {
 	unos = in.next();
 	
 	for(int i=0; i<(unos.length()); i++){
+<<<<<<< Updated upstream
 	    
             if(unos.contains(unos.charAt(i))) {
             	ne moze zato sto charAt treba prvo pretvoriti u stringove
             	
 }
+=======
+	      String Slova = ""+unos.charAt(i) ;
+	      
+	     
+	      if( unos.contains(Slova))
+	    	  
+	    	  System.out.println("Ima duplih slova");
+	      	      
+>>>>>>> Stashed changes
 	}
             
 }
